@@ -1,0 +1,37 @@
+---
+title: Testing
+slug: home
+---
+
+# This is Testing
+
+## H2 heading
+
+```javascript
+function makeid(length) {
+    var result           = [];
+    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+      result.push(characters.charAt(Math.floor(Math.random() * 
+ charactersLength)));
+   }
+   return result.join('');
+}
+
+console.log(makeid(5)); //Generate random string/characters.
+```
+
+```php
+
+<?php
+  echo rand(1,50);
+?>
+
+```
+
+This is a list in markdown:
+
+- One
+- Two
+- Three
